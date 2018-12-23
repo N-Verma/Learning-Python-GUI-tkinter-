@@ -12,9 +12,9 @@ filemenu=Menu(menubar, tearoff=0)
 filemenu.add_command(label="New", command=hel)
 #nested open menu
 open_nest=Menu(filemenu)
-open_nest.add_command(label='/C')
-open_nest.add_command(label='/D')
-open_nest.add_command(label='/E')
+open_nest.add_command(label=':/C')
+open_nest.add_command(label=':/D')
+open_nest.add_command(label=':/E')
 filemenu.add_cascade(label='Open',menu=open_nest)
 filemenu.add_separator()
 
